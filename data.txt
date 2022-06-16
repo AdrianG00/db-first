@@ -1,0 +1,19 @@
+Used cars
+
+
+ID - INT - NOTNULL - AUTO INCREMENT - PRIMARY KEY - UNIQUE
+type - VARCHAR(100) - NOTNULL
+fuel - VARCHAR(20) - NOTNULL
+model - VARACHAR(20) - NOTNULL
+brand - VARCHAR(20) - NOTNULL
+matriculation - YEAR - NULL
+environmental_class - CHAR(6) - NOTNULL
+color - VARCHAR(20) - NULL
+doors - TINYINT - NULL
+seats - TINYINT - NOTNULL
+mileage - INT - NULL
+transmission - VARCHAR(20) - NOTNULL
+horsepower - TINYINT - NULL
+kw - INT - NOTNULL
+quantity - TINYINT - NULL
+price - DECIMAL(14,2) - NULL
